@@ -21,6 +21,7 @@ ScreenManager="*res://Autoloads/ScreenManager.tscn"
 SoundManager="*res://Autoloads/SoundManager.tscn"
 Enums="*res://Autoloads/Enums.gd"
 EventBus="*res://Autoloads/EventBus.gd"
+PlayerData="*res://Autoloads/PlayerData.gd"
 
 [rendering]
 
