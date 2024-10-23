@@ -1,0 +1,28 @@
+; Engine configuration file.
+; It's best edited using the editor UI and not directly,
+; since the parameters that go here are not all obvious.
+;
+; Format:
+;   [section] ; section goes between []
+;   param=value ; assign values to parameters
+
+config_version=5
+
+[application]
+
+config/name="Godot Prroject Template"
+run/main_scene="res://Screens/main_menu_screen.tscn"
+config/features=PackedStringArray("4.3", "GL Compatibility")
+config/icon="res://Assets/icon.svg"
+
+[autoload]
+
+ScreenManager="*res://Autoloads/ScreenManager.tscn"
+SoundManager="*res://Autoloads/SoundManager.tscn"
+Enums="*res://Autoloads/Enums.gd"
+EventBus="*res://Autoloads/EventBus.gd"
+
+[rendering]
+
+renderer/rendering_method="gl_compatibility"
+renderer/rendering_method.mobile="gl_compatibility"

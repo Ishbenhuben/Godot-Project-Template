@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://cuq7fwndev7yb"]
+
+[ext_resource type="Script" path="res://Screens/Screen.gd" id="1_hctuc"]
+
+[node name="TestScreen" type="Node"]
+script = ExtResource("1_hctuc")

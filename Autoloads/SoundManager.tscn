@@ -1,0 +1,10 @@
+[gd_scene load_steps=2 format=3 uid="uid://cx488t1yetavq"]
+
+[ext_resource type="Script" path="res://Autoloads/SoundManager.gd" id="1_an1c2"]
+
+[node name="SoundManager" type="Node"]
+script = ExtResource("1_an1c2")
+
+[node name="BGM" type="Node" parent="."]
+
+[node name="SFX" type="Node" parent="."]
